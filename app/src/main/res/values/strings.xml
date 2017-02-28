@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tajwid</string>
+    <string name="konsep">KONSEP</string>
+    <string name="pengenalan">PENGENALAN</string>
+    <string name="mim_sakinah">MIM SAKINAH</string>
+    <string name="kredit">KREDIT</string>
+    <string name="keluar">KELUAR</string>
+    <string name="nun_sakinah">NUN SAKINAH</string>
+    <string name="contoh_1">Contoh 1</string>
+    <string name="henti_bacaan">HENTI BACAAN</string>
+    <string name="dengar_bacaan">DENGAR BACAAN</string>
+    <string name="izhar_halqi">IZHAR HALQI</string>
+    <string name="idgham_bila_ghunnah">IDGHAM BILA GHUNNAH</string>
+    <string name="idgham_maal_ghunnah">IDGHAM MAAL GHUNNAH</string>
+    <string name="iqlab">IQLAB</string>
+    <string name="ikhfa_haqiqi">IKHFA\' HAQIQI</string>
+    <string name="laman_utama">LAMAN UTAMA</string>
+    <string name="contoh_hukum">CONTOH HUKUM</string>
+    <string name="izhar_syafawi">IZHAR SYAFAWI</string>
+    <string name="idgham_syafawi">IDGHAM SYAFAWI</string>
+    <string name="ikhfa_syafawi">IKHFA\' SYAFAWI</string>
+</resources>
