@@ -6,73 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.zoro175.tajwid.DisplayIzharContoh1"
-    android:orientation="vertical">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imageView6" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imageView5" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal" />
+    android:orientation="vertical"
+    android:background="@drawable/menu_hitam_bacaan">
 
     <Button
-        android:text="@string/dengar_bacaan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/dengar"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button14"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="285dp"/>
+
+    <!--<Button-->
+        <!--android:text="@string/henti_bacaan"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/button15"-->
+        <!--android:layout_gravity="center_horizontal" />-->
 
     <Button
-        android:text="@string/henti_bacaan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button15"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        android:text="@string/contoh_hukum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/hitam_cth_hukum"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button18"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal" />
 
     <Button
-        android:text="@string/nun_sakinah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/nun_sakinah"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button19"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal" />
 
     <Button
-        android:text="@string/laman_utama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/laman_utama"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/button20"
         android:layout_gravity="center_horizontal" />
 

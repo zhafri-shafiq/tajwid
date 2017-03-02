@@ -36,7 +36,7 @@ public class DisplayIzharContoh1 extends AppCompatActivity {
 //            }
 //        });
         button14 = (Button) findViewById(R.id.button14);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.canon);
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.a6_1);
 //        @Override
 //        public void onPause {
 //            super.onPause();
@@ -61,6 +61,8 @@ public class DisplayIzharContoh1 extends AppCompatActivity {
         button18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mp.pause();
+                mp.seekTo(0);
                 Intent intent3 = new Intent(DisplayIzharContoh1.this, DisplayIzharContoh.class);
                 startActivity(intent3);
                 finish();
@@ -70,6 +72,8 @@ public class DisplayIzharContoh1 extends AppCompatActivity {
         button19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mp.pause();
+                mp.seekTo(0);
                 Intent intent2 = new Intent(DisplayIzharContoh1.this, DisplayNunActivity.class);
                 startActivity(intent2);
                 finish();
@@ -79,6 +83,8 @@ public class DisplayIzharContoh1 extends AppCompatActivity {
         button20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mp.pause();
+                mp.seekTo(0);
                 Intent intent = new Intent(DisplayIzharContoh1.this, MainActivity.class);
                 startActivity(intent);
                 finish();

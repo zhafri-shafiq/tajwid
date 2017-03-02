@@ -23,6 +23,6 @@ public class DisplayMimActivity extends AppCompatActivity {
             }
         });
 
-        Intent intent = getIntent();
+//        Intent intent = getIntent();
     }
 }

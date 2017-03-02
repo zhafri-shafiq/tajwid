@@ -6,39 +6,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.zoro175.tajwid.DisplayMimActivity"
-    android:orientation="vertical">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imageView7" />
+    android:orientation="vertical"
+    android:background="@drawable/menu_mim_sakinah_bg">
 
     <Button
-        android:text="@string/izhar_syafawi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button21"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/mim_izhar_syafawi"/>
 
     <Button
-        android:text="@string/idgham_syafawi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button22"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mim_idgham_syafawi"/>
 
     <Button
-        android:text="@string/ikhfa_syafawi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button23"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mim_ikhfa_syafawi"/>
 
     <Button
-        android:text="@string/laman_utama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
         android:id="@+id/button24"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/laman_utama"/>
+
 </LinearLayout>
