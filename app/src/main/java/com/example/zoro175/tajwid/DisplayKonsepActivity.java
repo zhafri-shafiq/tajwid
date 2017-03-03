@@ -11,6 +11,6 @@ public class DisplayKonsepActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_konsep);
 
-        Intent intent = getIntent();
+
     }
 }

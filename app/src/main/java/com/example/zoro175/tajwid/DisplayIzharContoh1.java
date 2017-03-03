@@ -49,14 +49,14 @@ public class DisplayIzharContoh1 extends AppCompatActivity {
                 mp.start();
             }
         });
-        button15 = (Button) findViewById(R.id.button15);
-        button15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mp.pause();
-                mp.seekTo(0);
-            }
-        });
+//        button15 = (Button) findViewById(R.id.button15);
+//        button15.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                mp.pause();
+//                mp.seekTo(0);
+//            }
+//        });
         button18 = (Button) findViewById(R.id.button18);
         button18.setOnClickListener(new View.OnClickListener() {
             @Override
